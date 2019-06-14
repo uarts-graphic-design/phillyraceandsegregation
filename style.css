@@ -1,0 +1,894 @@
+/* start of CSS */
+/* Full page CSS (h1-h6, body width and general style) */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 400px) {
+  p {
+    font-size: 24px;
+  }
+}
+
+body {
+  background-color: rgba(237, 189, 148, .75);
+  color: #654636;
+  font-size: 18px;
+  margin: auto;
+}
+
+#content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+p {
+  font-family: freight-micro-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6em;
+}
+
+h2 {
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
+}
+
+h3 {
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2em;
+}
+
+h4 {
+  font-family: halyard-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+h5 {
+  font-family: zeitung-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+
+h6 {
+  font-family: zeitung-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: .6em;
+  margin-bottom: 20px;
+}
+
+table {
+  border-spacing: 30px 20px;
+  border-collapse: collapse;
+  font-family: zeitung-mono, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+tr {
+  border-bottom: solid #654636 1px;
+  margin: 30px 0px;
+}
+
+th {
+  text-align: right;
+  border-bottom: solid #654636 3px;
+  padding: 0px 20px;
+}
+
+td {
+  text-align: right;
+  border-bottom: solid #654636 1px;
+  padding: 3px 20px 15px 0px;
+}
+
+/* end of Full Page css */
+
+/* Start of general use items */
+
+
+.m-hide {
+  display: none;
+}
+
+@media only screen and (min-width: 1100px) {
+
+  .pushleft {
+    margin-left: 50px;
+  }
+
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+/* End of general use items */
+
+/* Start of Column layout */
+
+.firstHalf {
+  max-width: 500px;
+  float: left;
+  margin-right: 75px;
+  margin-bottom: 150px
+}
+
+.secondHalf {
+  max-width: 500px;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 150px
+
+}
+
+.oneThird {
+  width: 30%;
+  float: left;
+  margin-bottom: 100px
+}
+
+.twoThirds {
+  width: 55%;
+  float: left;
+  margin-bottom: 100px
+}
+
+.twoThirds img {
+  max-width: 600px;
+}
+
+/* End of Column layout */
+
+/* Navigation Menu */
+
+.menuItem {
+  font-size: 1.5em;
+  margin: 30px auto;
+}
+
+#navMenu {
+  width: 30px;
+  height: 50px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  z-index: 10;
+}
+
+#menuOverlay {
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  display: none;
+  background-color: rgba(249,160,27,.95);
+}
+
+.hamburgerBar {
+  height: 3px;
+  margin: 3px 0px;
+  background-color: #654636;
+}
+
+#menuOverlay h2 {
+  color: #F4DCCB;
+  text-align: center;
+}
+
+#menuOverlay a:hover {
+  color: #c51f30;
+}
+
+#topscroll {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  height: 30px;
+  display: none;
+}
+
+#topscroll img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  #menuOverlay .menuItem {
+    font-size: 1.5em;
+    line-height: 1.3;
+    margin: 15px auto;
+  }
+}
+
+/* End of navigation menu */
+
+/* Start of Intro/Splash Page */
+
+#intro {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+#intro h1 {
+  margin: 15vh 0px 20px;
+
+}
+
+#subhead {
+  color: #bd2433;
+  margin-bottom: 30px;
+}
+
+#intro a:hover {
+  color: #bd2433;
+}
+
+/* End of Intro/Spash Page */
+
+/* Start of Peculiar Condition Essay */
+
+#peculiarCondition {
+  max-width: 700px;
+  margin: auto;
+}
+
+#peculiarCondition h6 {
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.essay {
+  max-width: 450px;
+  margin: 70px auto 200px;
+}
+
+.essay p {
+  margin: 20px 0px;
+}
+
+.essay h6 {
+  text-align: left !important;
+  margin: 20px 0px !important;
+}
+
+/* End of Peculiar Condition Essay */
+
+/* Start of Philadelphia Demographics */
+
+
+/* End of Philadelphia Demographics */
+
+/* Start of Income Data 1960vs2018 */
+
+#income h2 {
+  clear: left
+}
+
+#income {
+  margin: 50px 0px;
+  clear:left;
+  display: block;
+}
+
+#income h6 {
+  margin-bottom: 50px
+}
+
+#income .secondHalf {
+  max-height: 1270px;
+  overflow: scroll;
+  margin-bottom: 200px;
+}
+
+.secondHalf::-webkit-scrollbar {
+  width: 12px;
+}
+
+.secondHalf::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.secondHalf::-webkit-scrollbar-thumb {
+  background-color: #654636;
+  border-radius: 10px;
+}
+
+.small {
+  font-size: .6em;
+}
+
+/* end of Income Data 1960vs2018 */
+
+/* Start of Philly Segregation */
+
+#phillySegregation {
+  clear: left;
+}
+
+#phillySegregation h2 {
+  margin-bottom: 60px;
+  clear: both;
+}
+
+#phillySegregation img {
+  margin-bottom: 150px;
+}
+
+#phillySegregation .oneThird img {
+  width: 100%;
+}
+
+#phillySegregation .oneThird {
+  width: 40%;
+  margin-right: 50px;
+}
+
+#phillySegregation .twoThirds {
+  width: 50%;
+}
+
+#phillySegregation .twoThirds img {
+  width: 90%;
+}
+
+#phillySegregation p {
+  margin-bottom: 150px;
+  max-width: 40ch;
+}
+
+.AsianKey {
+  width: 60% !important;
+}
+
+@media only screen and (max-width: 1140px) {
+
+  #phillySegregation .oneThird {
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 0px;
+    width: 80%;
+  }
+
+  #phillySegregation .twoThirds {
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+  }
+
+  #phillySegregation .twoThirds img {
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #phillySegregation p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  #phillySegregation img {
+    margin-bottom: 50px;
+  }
+
+}
+
+/* End of Philly Segregation */
+
+/* Start of Gayborhood Section */
+
+#gayborhood {
+  clear: both;
+}
+
+.danMap {
+  max-width: 400px;
+}
+
+#gayborhood h6 {
+  margin: 10px 0px 50px;
+}
+
+#gayborhood .firstHalf {
+  display: block;
+  margin-bottom: 100px;
+}
+
+#gayborhood .secondHalf {
+  display: block;
+  margin-bottom: 100px;
+}
+
+#gayborhood h2 {
+  margin-bottom: 30px;
+}
+
+#gayborhood p {
+  max-width: 450px;
+}
+
+#gayborhood img {
+  display: block;
+}
+
+.gb-1960-header {
+  margin-top:320px;
+}
+
+.gb-LargeImage {
+  max-width: 800px;
+  margin: 60px auto 10px;
+  height: 60vh;
+  background-size: cover;
+  background-position: bottom;
+  clear: left;
+}
+
+.gb-heroImage {
+  background-image: url("images/danPhoto5.png");
+  background-position: center;
+  max-width: 90vw;
+  height: 60vh;
+  background-size: cover;
+  margin: 60px auto 10px;
+}
+
+#gb-1 {
+  background-image: url("images/60s.png");
+}
+
+#gb-2 {
+  background-image: url("images/1stPride.png");
+}
+
+@media only screen and (max-width: 1140px) {
+
+  #gayborhood p {
+    margin: auto !important;
+  }
+
+  #gayborhood img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #gayborhood h6 {
+    margin: auto !important;
+  }
+
+  #gayborhood h2 {
+    text-align: center;
+  }
+
+  .gb-1960-header {
+    margin-top:80px;
+  }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+  .gb-heroImage {
+    height: 40vh;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  #dm-large {
+    max-width: 400px !important;
+  }
+
+}
+
+/* End of Gayborhood Section */
+
+/* Start of Police Shootings Section */
+
+#policeShootings {
+  clear: left;
+}
+
+#policeShootings img {
+  max-width: 500px;
+}
+
+/* End of Police Shooting Section */
+
+/* Start of Crime and Race Section */
+
+#crimeAndRace {
+  clear: both;
+}
+
+.cr-intro {
+  max-width: 70ch;
+  margin-bottom: 50px;
+}
+
+.cr-discription {
+  max-width: 30ch;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: halyard-display, sans-serif;
+}
+
+.cr-discription02 {
+  max-width: 25ch;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: halyard-display, sans-serif;
+  margin-top: 50px;
+}
+
+crimeAndRace .secondHalf {
+  margin-left: 0px;
+  width: 800px;
+}
+
+#crimeAndRace .firstHalf {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.cr-small {
+  font-size: .4em;
+}
+
+#crimeAndRace .secondHalf img {
+  max-width: 800px;
+  margin-left: 50px;
+}
+
+#jasonGraphs .grouping {
+  max-width: 360px;
+  display: inline-block;
+  text-align: center;
+}
+
+.grouping img {
+  width: 100%;
+}
+
+#jasonGraphs {
+  clear: both;
+  display: block;
+  margin-bottom: 150px;
+}
+
+#CR-table td{
+  text-align: center;
+}
+
+#crimeAndRace thead td{
+  font-weight: bold;
+  border-bottom: solid 3px;
+}
+
+@media only screen and (max-width: 764px) {
+  .grouping {
+    margin: auto;
+    display: block !important;
+  }
+
+  #crimeAndRace .firstHalf {
+    max-width: 100%;
+    overflow: scroll;
+  }
+
+  .firstHalf::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .firstHalf::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  .firstHalf::-webkit-scrollbar-thumb {
+    background-color: #654636;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 1140px){
+  #crimeAndRace {
+    margin-top: 100px
+  }
+  #crimeAndRace .secondHalf img {
+    margin-left: 0px;
+  }
+  .cr-discription02 {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .cr-discription {
+    margin: auto;
+  }
+}
+
+/* End of Crime and Race Section */
+
+/* Start of Hate Crime Section */
+
+@media only screen and (max-width: 1100px) {
+  #hateCrimeExtreme p {
+    max-width: 50ch !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #hateCrimeExtreme div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+  .hc-center {
+    margin: auto;
+    display: block
+  }
+
+}
+
+#hateCrimeExtreme div {
+  padding: 0px 20px;
+}
+
+#hateCrimeExtreme {
+  clear: both;
+}
+
+#hateCrimeExtreme p {
+  max-width: 350px;
+}
+
+#hateCrimeExtreme img {
+  max-width: 100%;
+}
+
+/* End of Hate Crime Section */
+
+/* Start of Double Consciouses Section */
+
+#doubleConsciouses h6 {
+  text-align: center;
+}
+
+#doubleConsciouses img {
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+
+#doubleConsciouses {
+  clear: left;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#doubleConsciouses h5 {
+  text-transform: uppercase;
+  width: 45%;
+  display: inline-block;
+  font-size: .8em;
+  margin-top: 35px;
+}
+
+#doubleConsciouses h4 {
+  color: #EEBE95;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.new {
+  margin-top: 50px;
+}
+
+#doubleConsciouses .new h4 {
+  color: #654636;
+  font-family: zeitung-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+#doubleConsciouses .firstHalf {
+  margin-bottom: 50px;
+}
+
+#doubleConsciouses .secondHalf {
+  margin-bottom: 50px;
+}
+
+.dc-bar {
+  height: 3px;
+  background-color: #F0BE95;
+  display: inline-block;
+}
+
+.abm {
+  width: 200px;
+}
+
+.th {
+  width: 250px;
+}
+
+.f {
+  width: 300px;
+}
+
+.h {
+  width: 350px;
+}
+
+.dc-sterotype {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.fullGraph {
+  margin-bottom: 150px;
+  display:block;
+  width: 100%
+}
+
+.halfGraph {
+  display: none;
+}
+
+@media only screen and (max-width: 1140px;) {
+  .fullGraph {
+    display: none;
+  }
+
+  .halfGraph {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+/* End of Double Consciouses Section */
+
+/* Start of Diversity and Segregation Section */
+
+code goes here
+
+/* End of Diversity and Segregation Section */
+
+#diversitySegregation h2 {>
+  max-width: 750px;
+}
+
+#diversitySegregation h6 {
+  margin-bottom: 50px;
+}
+
+#diversitySegregation img {
+  margin: auto;
+}
+
+#diversitySegregation div img {
+  margin: auto;
+  max-width: 450px;
+  display: block;
+}
+
+/* Start of Footer */
+
+
+
+/* End of Footer */
+
+.thing {
+  height: 1px;
+  display: block;
+  width: 100%;
+}
+
+#footer {
+  background-color: #654636;
+  height: 100px;
+  width: 100%;
+  clear: both;
+}
+
+#footer p {
+  color: #EEBE95;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+
+#footer a {
+  text-decoration: underline !important;
+}
+
+#footer a:hover {
+  color: #C51F30;
+}
+
+/* Credits */
+
+#credits {
+  margin: 50px auto;
+}
+
+#credits a {
+  text-decoration: underline !important;
+}
+
+/* important stuff */
+@media only screen and (max-width: 1140px) {
+  .firstHalf {
+    float: none;
+    max-width: 90%;
+    margin: auto;
+  }
+  .secondHalf {
+    margin-top: 100px !important;
+    float: none;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .firstHalf img{
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .secondHalf img{
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .secondHalf table{
+    width: 80%;
+    margin: auto;
+  }
+
+  .twoThirds, .oneThird {
+    clear: both;
+    margin: auto;
+    margin-bottom: 100px;
+    display: block;
+    float: none;
+    width: 80%
+  }
+}
