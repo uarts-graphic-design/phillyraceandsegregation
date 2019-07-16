@@ -40,7 +40,8 @@ h1 {
   font-family: halyard-display, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 6em;
+  font-size: 4.5em;
+  line-height: 1.1;
 }
 
 h2 {
@@ -236,7 +237,7 @@ td {
 }
 
 #intro h1 {
-  margin: 15vh 0px 20px;
+  margin: 10vh 0px 20px;
 
 }
 
